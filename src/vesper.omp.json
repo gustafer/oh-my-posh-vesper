@@ -1,0 +1,60 @@
+
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "blocks": [
+      {
+        "alignment": "left",
+        "segments": [
+          {
+            "foreground": "#ffc799",
+            "style": "plain",
+            "template": "{{ .UserName }} ",
+            "type": "session"
+          },
+          {
+            "foreground": "#ffffff",
+            "style": "plain",
+            "template": "in ",
+            "type": "text"
+          },
+          {
+            "foreground": "#99ffe4",
+            "properties": {
+              "style": "full"
+            },
+            "style": "plain",
+            "template": "{{ .Path }} ",
+            "type": "path"
+          },
+          {
+            "foreground": "#99ffe4",
+            "properties": {
+              "branch_ahead_icon": "",
+              "branch_behind_icon": "",
+              "branch_gone_icon": "",
+              "branch_icon": "",
+              "branch_identical_icon": "",
+              "cherry_pick_icon": "",
+              "commit_icon": "",
+              "fetch_status": true,
+              "merge_icon": "",
+              "rebase_icon": "",
+              "revert_icon": "",
+              "tag_icon": ""
+            },
+            "style": "plain",
+            "template": "<#ffffff>on</> {{ .HEAD }}{{ if .Staging.Changed }}<#87FF00> ● {{ .Staging.String }}</>{{ end }}{{ if .Working.Changed }}<#D75F00> ● {{ .Working.String }}</>{{ end }} ",
+            "type": "git"
+          },
+          {
+            "foreground": "#ffc799",
+            "style": "plain",
+            "template": "◒",
+            "type": "text"
+          }
+        ],
+        "type": "prompt"
+      }
+    ],
+    "version": 1
+  }
