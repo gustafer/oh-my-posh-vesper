@@ -49,13 +49,7 @@
           {
             "foreground": "#99ffe4",
             "style": "plain",
-            "template": "◖",
-            "type": "text"
-          },
-          {
-            "foreground": "#ffc799",
-            "style": "plain",
-            "template": "◗‎ ",
+            "template": "Δ",
             "type": "text"
           }
         ],
