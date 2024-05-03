@@ -27,7 +27,7 @@
             "type": "path"
           },
           {
-            "foreground": "#99ffe4",
+            "foreground": "#ffc799",
             "properties": {
               "branch_ahead_icon": "",
               "branch_behind_icon": "",
@@ -47,9 +47,9 @@
             "type": "git"
           },
           {
-            "foreground": "#ffc799",
+            "foreground": "#99ffe4",
             "style": "plain",
-            "template": "◒",
+            "template": "◒ ",
             "type": "text"
           }
         ],
