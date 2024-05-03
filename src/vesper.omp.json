@@ -49,7 +49,7 @@
           {
             "foreground": "#99ffe4",
             "style": "plain",
-            "template": "Δ",
+            "template": "Δ ",
             "type": "text"
           }
         ],
