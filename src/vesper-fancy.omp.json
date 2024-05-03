@@ -71,8 +71,8 @@
           "type": "executiontime",
           "style": "powerline",
           "powerline_symbol": "\ue0c4",
-          "foreground": "#ffffff",
-          "background": "#ffc799",
+          "foreground": "#ffc799",
+          "background": "#242424",
           "template": " <#fefefe>\ueba2</> {{ .FormattedMs }} ",
           "properties": {
             "style": "austin",
