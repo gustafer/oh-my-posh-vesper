@@ -38,7 +38,7 @@
           "type": "path",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "foreground": "#ffc799",
+          "foreground": "#fcacff",
           "background": "#242424",
           "template": "\ue5ff {{ .Path }} ",
           "properties": {
